@@ -1,3 +1,4 @@
+import fastapi
 import streamlit as st
 import requests
 from fastapi import FastAPI
@@ -22,7 +23,7 @@ def root():
 def predict(item: Item):
     """Summarization text"""
 
-    return pipe(item.text)
+    return pipe(item.text)[0]
 
 
 st.title('Суммаризация текста')
