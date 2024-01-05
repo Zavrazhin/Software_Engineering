@@ -19,5 +19,4 @@ def root():
 @app.post("/predict/")
 def predict(item: Item):
     """Summarization text"""
-
-    return pipe(item.text)
+    return pipe(item.text)[1]

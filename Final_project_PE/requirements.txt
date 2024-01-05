@@ -1,7 +1,2 @@
-fastapi
-pydantic
-requests
-requests-oauthlib
 transformers
 streamlit
-uvicorn
