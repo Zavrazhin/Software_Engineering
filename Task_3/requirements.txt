@@ -1,3 +1,13 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+streamlit
+torch
+transformers
+sentencepiece
+fastapi
+uvicorn
+httpx
+pydantic1.10.5
+TestClient
 absl-py==2.0.0
 altair==5.2.0
 annotated-types==0.6.0
